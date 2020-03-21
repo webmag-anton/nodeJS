@@ -1,0 +1,21 @@
+{
+  "name": "node_study",
+  "version": "1.0.0",
+  "description": "nodeJs learn",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon demo__native_modules/http.js"
+  },
+  "keywords": [
+    "nodeJS"
+  ],
+  "author": "Anton Byshok <lyooon92@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
