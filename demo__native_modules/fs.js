@@ -29,16 +29,16 @@ fs.writeFile(filePath, 'Hello NodeJS', err => {
 })
 
 // 3)
-// fs.appendFile(file, data[, options], callback) -  что то добавляет в файл, может перетирать существующий файл
+// fs.appendFile(file, data[, options], callback) -  что то добавляет в конец файла
 fs.appendFile(filePath, '\nhello again', err => {
 	if (err) {
 		throw err
 	}
-	console.log('длбавлена надпись в конец файла')
+	console.log('добавлена надпись в конец файла')
 })
 
 // 4)
-fs.readFile(filePath, 'utf-8', (err, content) => {  // прочитывает данные
+fs.readFile(filePath, 'utf-8', (err, content) => {  // читает данные
 	if (err) {
 		throw err
 	}
