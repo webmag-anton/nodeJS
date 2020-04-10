@@ -4,7 +4,7 @@
 
 // функция require встроена в nodeJS, с ее помощью мы подключаем пакет (.js можно не писать)
 const chalk = require('chalk')	// если не указан путь, то nodeJS понимает что модуль из node_modules (т.е. не свой - дополнительный модуль)
-const text = require('./data')  // что бы подключить свой файл (модуль) нужно ставить ./
+const text = require('./data')   // что бы подключить свой файл (модуль) нужно ставить ./
 
 console.log( chalk.red(text) )
 
